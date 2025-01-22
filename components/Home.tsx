@@ -25,7 +25,10 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Home</Text>
-
+      <Text>Home</Text>
+      <Text>Home</Text>
+      <Text>Home</Text>
+      <Text>Home</Text>
       <TextInput
         value={task.key}
         onChangeText={(ikey) => setTask({ ...task, key: ikey })}
